@@ -10,7 +10,11 @@ body {
 }
 
 header {
-    display: flex;
+    display: flex; 
+    /* для z index */
+    position: relative;
+    z-index: 2;
+
 
 }
 
@@ -224,11 +228,20 @@ h6 {
         flex-direction: column;
         flex-wrap: wrap;
         margin-bottom: 100px;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .cartochka_1{
+        margin-right: 0;
+        margin-top: 30px;
     }
     .h{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         margin-bottom: 100px;
+        align-items: center;
+        margin-top: 30px;
     }
+    
 }
