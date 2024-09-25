@@ -14,6 +14,7 @@ header {
     /* для z index */
     position: relative;
     z-index: 2;
+    margin-top: 20px;
 
 
 }
@@ -100,6 +101,7 @@ img {
 
 h1 {
     text-align: center;
+    margin-top: 20px;
 }
 
 .agenstvo {
@@ -123,6 +125,7 @@ h1 {
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    flex-wrap: wrap;
 
 
 }
@@ -184,7 +187,8 @@ h6 {
     border: 2px solid white;
     margin-bottom: 20px;
     width: 400px;
-    margin-right: 20px;
+    margin-right: 60px;
+    margin-left: 20px;
 
 }
 
@@ -192,25 +196,28 @@ h6 {
     border: 2px solid blue;
     margin-bottom: 20px;
     width: 400px;
-    margin-right: 20px;
+    margin-right: 60px;
 }
 
 .p_3 {
     border: 2px solid purple;
     margin-bottom: 20px;
     width: 400px;
-    margin-right: 20px;
+    margin-right: 60px;
 }
 
 .p_4 {
     border: 2px solid green;
     margin-bottom: 20px;
     width: 400px;
-    margin-right: 20px;
+    margin-right: 60px;
 }
 
 .h {
     display: flex;
+    margin-top: 50px;
+   
+    
 }
 
 @media(max-width:600px) {
@@ -233,7 +240,7 @@ h6 {
     }
     .cartochka_1{
         margin-right: 0;
-        margin-top: 30px;
+        margin: 20px;
     }
     .h{
         display: flex;
