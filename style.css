@@ -188,7 +188,8 @@ h6 {
 .p_1 {
     border: 2px solid white;
     margin-bottom: 20px;
-    width: 400px;
+    max-width: 400px;
+    box-sizing: border-box;
     
 
 }
@@ -196,26 +197,30 @@ h6 {
 .p_2 {
     border: 2px solid blue;
     margin-bottom: 20px;
-    width: 400px;
+    max-width:  400px;
+    box-sizing: border-box;
     
 }
 
 .p_3 {
     border: 2px solid purple;
     margin-bottom: 20px;
-    width: 400px;
+    max-width: 400px;
+    box-sizing: border-box;
     
 }
 
 .p_4 {
     border: 2px solid green;
     margin-bottom: 20px;
-    width: 400px;
+    max-width: 400px;
+    box-sizing: border-box;
     
 }
 
 .h {
     display: flex;
+    justify-content: space-between;
     margin-top: 50px;
    
     
@@ -240,6 +245,9 @@ h6 {
         margin-top: 30px;
     }
     #services_modal{
+        overflow: scroll;
+    }
+    #agenstvo{
         overflow: scroll;
     }
 
