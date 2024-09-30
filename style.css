@@ -48,11 +48,12 @@ ul {
 
 #myVideo {
     position: fixed;
-    right: 0;
-    bottom: 0;
+    top: 50%;
+    left: 50%;
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
+    transform: translate(-50%,-50%);
 }
 
 
@@ -118,6 +119,7 @@ h1 {
     border: 2px solid white;
     width: 300px;
     margin-right: 40px;
+   
 
 }
 
@@ -187,8 +189,7 @@ h6 {
     border: 2px solid white;
     margin-bottom: 20px;
     width: 400px;
-    margin-right: 60px;
-    margin-left: 20px;
+    
 
 }
 
@@ -196,21 +197,21 @@ h6 {
     border: 2px solid blue;
     margin-bottom: 20px;
     width: 400px;
-    margin-right: 60px;
+    
 }
 
 .p_3 {
     border: 2px solid purple;
     margin-bottom: 20px;
     width: 400px;
-    margin-right: 60px;
+    
 }
 
 .p_4 {
     border: 2px solid green;
     margin-bottom: 20px;
     width: 400px;
-    margin-right: 60px;
+    
 }
 
 .h {
@@ -238,17 +239,27 @@ h6 {
         align-items: center;
         margin-top: 30px;
     }
+    #services_modal{
+        overflow: scroll;
+    }
+
     .cartochka_1{
         margin-right: 0;
         margin: 20px;
+        align-items: center;
     }
     .h{
         display: flex;
+        overflow: scroll;
         flex-direction: column;
         flex-wrap: wrap;
         margin-bottom: 100px;
         align-items: center;
         margin-top: 30px;
+        
+    }
+    .p_1{
+        margin-top: 20px;
     }
     
 }

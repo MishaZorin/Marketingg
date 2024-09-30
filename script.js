@@ -51,10 +51,10 @@ click2.onclick = function () {
 click3.onclick = function () {
     click_modal.style.display = 'block'
 }
-// click_modal.onclick = function () {
-//     click_modal.style.display = 'none'
-//         ``
-// }
-// click_modal.children[0].onclick = function (event) {
-//     event.stopPropagation()
-// }
+click_modal.onclick = function () {
+    click_modal.style.display = 'none'
+        
+}
+click_modal.children[0].onclick = function (event) {
+    event.stopPropagation()
+}
